@@ -1,0 +1,43 @@
+@media screen and (max-width: 1600px){
+    #header-wp .main-menu{
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+   
+}
+
+@media screen and (max-width: 1024px){
+    #site #container #header-wp li.no-respon{
+        display:none;
+    }
+    #container #header-wp li.logo{
+        position: absolute;
+        left: 35px;
+    }
+    #site #menu-respon{
+        display: block;
+    }
+    .content-wp .content .sidebar-detail-film{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content-wp .content .video{
+        height: 240px;
+    }
+    .content-wp .content .film .film-new-update .slider{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .content-wp .content .film .film-new-update h1{
+        font-size: 30px;
+    }
+    #container #header-wp li.logo{
+        position: absolute;
+        left: 0px;
+        font-size: 20px;
+    }
+
+}

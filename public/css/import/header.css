@@ -1,0 +1,174 @@
+#header-wp{
+    background-color: #0c2738;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 4;
+    display: block;
+}
+#header-wp .main-menu{
+  position: relative;
+    color: #0c2738;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 75px;
+    text-align: center;
+    align-items: center!important;
+    box-sizing: border-box;
+   
+}
+#header-wp .main-menu li{
+   display: inline-block;
+}
+.logo{
+    font-size: 25px;
+    border-bottom: 4px solid yellow;
+}
+#header-wp .main-menu li a{
+   color:#899ead ;
+    display: block;
+    padding:25px 25px;
+    text-decoration: none;
+    min-height: 75px;
+    box-sizing: border-box;
+   
+}
+#header-wp .main-menu li a:hover{
+    color: #fff;  
+  
+}
+@-webkit-keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  /* Standard syntax */ 
+  @keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  
+  #header-wp .main-menu .logo i {
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite; 
+  }
+  #header-wp .main-menu .kind .sub-menu,#header-wp .main-menu .local .sub-menu-map{
+    position: absolute;
+    background: #0c2738;
+    width: 100%;
+    display: none;
+    padding: 15px 25px;
+    border-top: 1px solid #899ead;
+    top: 100%;
+    transition: all 350ms ease;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  #header-wp .main-menu .kind .sub-menu li a{
+  font-size: 15px;
+  padding-left: 0px;
+  }
+  #header-wp .main-menu .kind:hover ul.sub-menu,#header-wp .main-menu .local:hover ul.sub-menu-map{
+    display: block;
+  }
+  /* menu respon */
+  #site {
+    position: relative;
+  }
+  #site  #menu-respon li a{
+    color: azure;
+  }
+  #site  #menu-respon li{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 25px;
+  }
+  #site  #menu-respon #menu .icon-menu{
+    position: absolute;
+    left: -50px;
+    top: 30px;
+    text-decoration: none;
+    color: orange;
+    z-index: 6;
+  }
+/* menu */
+#site   #menu-respon #menu li a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color: orange;
+  /* padding: 20px; */
+  text-decoration: none;
+}
+#site   #menu-respon #menu li{
+  position: relative;
+  width: 92%;
+}
+#site   #menu-respon #menu .menu-item .main-menu span.icon-add i{
+position: absolute;
+top: 28px;
+right: 10px;
+  color: orange;
+}
+#site   #menu-respon #menu .menu-item .sub-menu{
+display: none;
+}
+#site #menu-respon #menu .menu-item .sub-menu li{
+  margin: 5px 0px;
+    padding: 10px; 
+}
+#site #menu-respon #menu .menu-item .sub-menu li a{
+  color: orange;
+  font-weight: lighter;
+  font-family: 'Font Awesome 5 Free';
+}
+#site {
+  position: relative;
+  overflow: hidden;
+}
+#site #menu-respon{
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -200px;
+  background: #0c2738;
+  z-index: 10;
+  transition: right 0.25s;
+  display: none;
+}
+#site.open-respon-menu #menu-respon{
+  right: 0px;
+  transition: right 0.25s;
+}
+/* #site #menu-respon,#menu{
+  width: 200px;
+  min-height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  background: #0c2738;
+
+} */
+#site  #menu-respon #menu .menu-item{
+  border-bottom: 1px solid #fff;
+  padding: 25px;
+  font-size: 20px;
+  z-index: 6;
+}

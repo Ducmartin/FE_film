@@ -1,0 +1,1 @@
+<h1 style="font-size: 50px;text-align:center;color:#fff">Trang không tồn tại 404</h1>

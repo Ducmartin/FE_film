@@ -1,0 +1,77 @@
+.intro_film{
+    margin-top: 20px;
+    background-image: linear-gradient(
+        3600deg,#081b27,rgba(8,27,39,.8)),url('http://localhost/subphim/public/images/banner_chi-la-quan-he-hon-nhan_1.jpg');    
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    color: rgb(238, 244, 245);
+    font-size: 20px;
+}
+.intro_film .content img{
+    width: 100%;
+}
+.intro_film .content .header-content-block .rating{
+    font-size: 15px;
+    height: 90px;
+    margin: 5px 5px;
+    display: inline-block;
+    position: relative;
+}
+.intro_film .content .header-content-block .info-block{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+.intro_film .content .header-content-block .info-block a{
+    color: #fff;
+    text-decoration: underline;
+}
+.intro_film .content .header-content-block .info-day{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.intro_film .content .header-content-block .header-title{
+    font-size: 32px;
+    margin: 5px 5px;
+}
+.intro_film .content .header-content-block .header-info-block .header-info-item{
+    margin: 10px 10px;
+}
+.intro_film .content .header-content-block .header-info-block .header-info-item .button_trailer{
+ color: #fff;
+  background-color: #3898ec!important;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-right:10px ;
+}
+.intro_film .content .header-content-block .header-info-block .header-info-item .button_xemphim{
+    color: #fff;
+    background-color: #e46466!important;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.intro_film .content .header-content-block .header-short-description{
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    line-height: 35px;
+}
+ .content-descript{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgba(255, 255, 255, 0.548);
+    padding: 40px 10px;
+    line-height: 23px;
+}
+.content-descript h1{
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 26px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.content-descript p{
+    line-height: 23px;
+    margin: 20px 10px;
+}
